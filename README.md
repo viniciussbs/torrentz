@@ -12,3 +12,17 @@ Torrentz has functions to search torrentz.eu database.
     uploading: "1,001",
     link: "https://torrentz.eu/fe1e1069de410fb44157f02b4f6655dde99621c6"
     }, ...]
+
+
+TODO
+-----
+
+- [x] Regular search
+- [ ] Filter torrents list by quality (any/good/verified)
+- [ ] Order torrents list by rating, date etc
+- [ ] Get torrent details
+
+FIXME
+------
+
+- [ ] Handle `{:error, %HTTPoison.Error{id: nil, reason: :timeout}}`.
